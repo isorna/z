@@ -1,0 +1,34 @@
+{
+  "name": "z",
+  "version": "0.0.0",
+  "description": "Work tools",
+  "main": "z.js",
+  "dependencies": {
+    "map-stream": "0.0.6",
+    "simple-git": "^1.8.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mitosis": "gulp mitosis",
+    "miosis": "bower install && gulp mitosis"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isorna/z"
+  },
+  "keywords": [
+    "node",
+    "bower",
+    "gulp",
+    "tools"
+  ],
+  "author": "Alvaro Isorna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isorna/z/issues"
+  },
+  "homepage": "https://github.com/isorna/z"
+}
